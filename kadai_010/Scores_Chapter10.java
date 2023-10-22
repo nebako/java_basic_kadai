@@ -13,7 +13,7 @@ public class Scores_Chapter10 {
     Statement stmt = null;
     try {
       con = DriverManager.getConnection("jdbc:mysql://localhost/challenge_java",
-          "root", "kfm3d35Z");
+          "root", "aaaaaaaa");
       
       System.out.println("データベース接続成功：" + con);
       stmt = con.createStatement();
